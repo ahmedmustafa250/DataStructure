@@ -2,7 +2,7 @@ package com.company;
 import java.util.*;
 public class Main {
 
-    //Reverse Array Function
+    //Reverse Array program Function 
 
     static int [] reverseArray(int [] array,int length){
         int [] reverse=new int[length];
@@ -24,6 +24,7 @@ public class Main {
 
 
         /// Frequency Count (Program no 02)
+        
         System.out.println("");
         int [] numbers={1,1,2,2,4,5,6,4,1,2,3,4,5,7};
         Map<String,Integer> map = new HashMap<>();
