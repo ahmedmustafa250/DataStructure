@@ -7,15 +7,15 @@ public class Main {
     public static void main(String[] args) {
 
 
-//    //Binary Search
+    //Binary Search
         int [] arr={2,4,6,8,16,32,64,98};
         BinarySearch bs=new BinarySearch(98);
         bs.find(arr);
 
 
 
-//
-//    //Bubble sort
+
+    //Bubble sort
         int [] arr1={12,22,64,90,11,25,34,0,7,1000,500,19,39,50,0};
         BubbleSort bs1=new BubbleSort(arr1);
         bs1.bubbleSort();
@@ -23,7 +23,7 @@ public class Main {
         System.out.println("");
 
 
-//    //Selection sort
+    //Selection sort
         int [] arr2={12,22,64,90,11,25,34,0,7,1000,500,19,39,50,0};
         SelectionSort bs2=new SelectionSort(arr2);
         bs2.selectionSort();
@@ -32,7 +32,7 @@ public class Main {
 
 
 
-//    //Alphabetically Sort Array
+//   Alphabetically Sort Array
         String [] fruits={"mango","banana","apple","water","grapes"};
         AlphabeticallySorting As=new AlphabeticallySorting();
         System.out.println(Arrays.toString(As.alphabeticallySort(fruits)));
@@ -44,7 +44,29 @@ public class Main {
         ins.insertion();
         ins.display();
 
+        
+     //Stacked int
+//        Stack s=new Stack(5);
+//        s.push(12);
+//          s.push(14);
+//          s.push(16);
+//          s.pop();
+//          s.peek();
+//          s.isEmpty();
+//          s.displayStack();
+//
 
+
+
+     //Stacked char
+        StackChar s1=new StackChar(5);
+        String name="ahmed";
+        for(int i=0;i<name.length();i++){
+            s1.push(name.charAt(i));
+        }
+        for(int i=0;i<name.length();i++){
+            s1.pop();
+        }
 
 
         }
